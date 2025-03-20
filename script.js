@@ -1,14 +1,13 @@
 //Variáveis
-let Numero = 10;
+let Numero = prompt('Digite um número');
 //Funções
 function verificarPar() {
-    console.log(Numero);
+
+if (Numero % 2 === 0) {
+    console.log( numero + "é um número par");
+} else {
+    console.log( numero + "é um número é ímpar");
+}
 }
 //chamando função
 verificarPar();
-//Estruturas de controle
-if (Numero % 2 === 0) {
-    console.log("Esse número é par");
-} else {
-    console.log("Esse número é ímpar");
-}
