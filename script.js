@@ -1,7 +1,8 @@
 //Variáveis
 //let Numero = prompt('Digite um número');
-let n1 = 10
-let n2 = 11
+let n1 = parseFloat (prompt = ("digite um número"));
+let n2 = parseFloat (prompt = ("digite outro número"));
+
 //Funções
 function verificarPar() {
 
@@ -13,13 +14,18 @@ if (Numero % 2 === 0) {
 }
 
 function calcular(n1,n2) {
-       console.log(n1 + n2)
-       console.log(n1 * n2)
-       console.log(n1 - n2)
+       console.log(n1 + n2);
+       console.log(n1 * n2);
+       console.log(n1 - n2);
        console.log(n1 / n2);
+       if ( n1 === 0) {
+        console.log("não é possível resolver")
+       } else {
+        console.log(n1 / n2)
+       }
 }
 
 //chamando função
 //verificarPar();
-calcular()
+calcular(n1,n2)
 
