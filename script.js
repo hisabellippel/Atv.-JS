@@ -1,7 +1,8 @@
 //Variáveis
 //let Numero = prompt('Digite um número');
-let n1 = parseFloat(prompt('digite um número'));
-let n2 = parseFloat(prompt('digite outro número'));
+//let n1 = parseFloat(prompt('digite um número'));
+//let n2 = parseFloat(prompt('digite outro número'));
+let numero = 10
 
 //Funções
 function verificarPar() {
@@ -24,7 +25,12 @@ function calcular(n1, n2) {
     }
 }
 
+do {
+    console.log(numemro --)
+}
+while (numero > 0)
+
 //chamando função
 //verificarPar();
-calcular(n1, n2);
+//calcular(n1, n2);
 
