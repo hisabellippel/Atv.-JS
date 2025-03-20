@@ -4,9 +4,9 @@ let Numero = prompt('Digite um número');
 function verificarPar() {
 
 if (Numero % 2 === 0) {
-    console.log( numero + "é um número par");
+    console.log( Numero + "é um número par");
 } else {
-    console.log( numero + "é um número é ímpar");
+    console.log( Numero + "é um número é ímpar");
 }
 }
 //chamando função
