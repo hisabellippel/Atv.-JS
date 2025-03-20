@@ -2,7 +2,8 @@
 //let Numero = prompt('Digite um número');
 //let n1 = parseFloat(prompt('digite um número'));
 //let n2 = parseFloat(prompt('digite outro número'));
-let numero = 10
+//let numero = 10
+//let palavra = prompt('Digite uma palvra');
 
 //Funções
 function verificarPar() {
@@ -25,12 +26,19 @@ function calcular(n1, n2) {
     }
 }
 
-do {
-    console.log(numemro --)
+//do {
+    //console.log(numero --)
+//}
+//while (numero > 0)
+
+function inverterTexto(palavra) {
+       console.log(palavra.split("").reverse().join(""));
 }
-while (numero > 0)
+
+
 
 //chamando função
 //verificarPar();
 //calcular(n1, n2);
+//inverterTexto(palavra)
 
