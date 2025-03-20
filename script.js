@@ -1,11 +1,5 @@
-//Variáveis
-//let Numero = prompt('Digite um número');
-//let n1 = parseFloat(prompt('digite um número'));
-//let n2 = parseFloat(prompt('digite outro número'));
-//let numero = 10
-//let palavra = prompt('Digite uma palvra');
-
 //Funções
+//let Numero = prompt('Digite um número');
 function verificarPar() {
 
     if (Numero % 2 === 0) {
@@ -15,6 +9,8 @@ function verificarPar() {
     }
 }
 
+//let n1 = parseFloat(prompt('digite um número'));
+//let n2 = parseFloat(prompt('digite outro número'));
 function calcular(n1, n2) {
     console.log(n1 + n2);
     console.log(n1 * n2);
@@ -26,16 +22,21 @@ function calcular(n1, n2) {
     }
 }
 
+//let numero = 10
 //do {
     //console.log(numero --)
 //}
 //while (numero > 0)
 
+//let palavra = prompt('Digite uma palvra');
 function inverterTexto(palavra) {
        console.log(palavra.split("").reverse().join(""));
 }
 
-
+let pal = parseFloat(prompt('Digite uma palavra'));
+function contarCaracteres(pal) {
+       
+}
 
 //chamando função
 //verificarPar();
