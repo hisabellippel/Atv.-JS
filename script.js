@@ -18,9 +18,9 @@ function calcular(n1,n2) {
        console.log(n1 * n2);
        console.log(n1 - n2);
        if ( n1 === 0) {
-        console.log("não é possível resolver")
+        console.log("não é possível resolver");
        } else {
-        console.log(n1 / n2)
+        console.log(n1 / n2);
        }
 }
 
