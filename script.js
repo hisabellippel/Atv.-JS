@@ -1,5 +1,5 @@
 //Variáveis
-let Numero = prompt('Digite um número');
+//let Numero = prompt('Digite um número');
 let n1 = 10
 let n2 = 11
 //Funções
