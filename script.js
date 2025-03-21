@@ -56,12 +56,18 @@ function mensagemPersonalizada(nome, mensagem) {
     console.log (mensagem + nome);
 }
 
+let n1 = parseFloat(prompt('digite um número'));
+let n2 = parseFloat(prompt('digite um número'));
+let n3 = parseFloat(prompt('digite um número'));
+function media (n1, n2, n3) {
+    console.log((n1 + n2 + n3));
+}
+
 //chamando função
 //verificarPar();
 //calcular(n1, n2);
 //inverterTexto(palavra);
 //contarCaracteres ( pal );
 //meucarro.exibirInformações()
-mensagemPersonalizada(nome, mensagem)
-
-dsaf
+//mensagemPersonalizada(nome, mensagem)
+media(n1, n2, n3)
