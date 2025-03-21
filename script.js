@@ -72,13 +72,24 @@ function media (n1, n2, n3) {
     }
 }*/
 
-let palavra = (prompt('digite sua palavra'))
+//let palavra = (prompt('digite sua palavra'))
 function verificarPalavra (palavra) {
     let palindroma = (palavra.split("").reverse(). join(""));
     if (palavra === palindroma ) {
         console.log ('essa palavra é palindroma');
     } else {
         console.log('essa palavra não é palindroma');
+    }
+}
+
+let numero = parseFloat(prompt('Digite um número'));
+function verificarSinal(numero) {
+    if (numero > 0 ) {
+        console.log('Esse número é positivo');
+    } else if(numero === 0) {
+        console.log('esse número é zero');
+    }else{
+        console.log('esse número é negativo');
     }
 }
 
@@ -90,4 +101,5 @@ function verificarPalavra (palavra) {
 //meucarro.exibirInformações()
 //mensagemPersonalizada(nome, mensagem)
 //media(n1, n2, n3)
-verificarPalavra(palavra)
+//verificarPalavra(palavra)
+verificarSinal(numero)
