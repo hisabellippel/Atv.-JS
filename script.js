@@ -82,7 +82,7 @@ function verificarPalavra (palavra) {
     }
 }
 
-let numero = parseFloat(prompt('Digite um número'));
+//let numero = parseFloat(prompt('Digite um número'));
 function verificarSinal(numero) {
     if (numero > 0 ) {
         console.log('Esse número é positivo');
@@ -93,13 +93,19 @@ function verificarSinal(numero) {
     }
 }
 
+let temp = parseFloat(prompt('digite o grau em celsius para converter'))
+function converterTemperatura(temp) {
+    console.log((temp * 1.8) + 32);
+}
+
 //chamando função
 //verificarPar();
 //calcular(n1, n2);
 //inverterTexto(palavra);
 //contarCaracteres ( pal );
-//meucarro.exibirInformações()
-//mensagemPersonalizada(nome, mensagem)
-//media(n1, n2, n3)
-//verificarPalavra(palavra)
-verificarSinal(numero)
+//meucarro.exibirInformações();
+//mensagemPersonalizada(nome, mensagem);
+//media(n1, n2, n3);
+//verificarPalavra(palavra);
+//verificarSinal(numero);
+converterTemperatura(temp);
