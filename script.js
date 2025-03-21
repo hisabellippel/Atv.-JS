@@ -123,8 +123,10 @@ while (n < 101) {
 function substituirPalavra(text) {
       console.log(text.replace(/azul/g, "vermelho"));
 }
-let texto = prompt('digite o seu texto:');
-substituirPalavra(texto);
+//let texto = prompt('digite o seu texto:');
+//substituirPalavra(texto);
+
+
 
 
 
