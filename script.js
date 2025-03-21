@@ -56,11 +56,20 @@ function mensagemPersonalizada(nome, mensagem) {
     console.log (mensagem + nome);
 }
 
-let n1 = parseFloat(prompt('digite um número'));
-let n2 = parseFloat(prompt('digite um número'));
-let n3 = parseFloat(prompt('digite um número'));
+//let n1 = parseFloat(prompt('digite um número'));
+//let n2 = parseFloat(prompt('digite um número'));
+//let n3 = parseFloat(prompt('digite um número'));
 function media (n1, n2, n3) {
     console.log((n1 + n2 + n3));
+}
+
+for (let numero = 1; numero < 21; numero++) {
+    console.log (numero)
+    if (numero % 3 === 0) {
+        console.log ('Esse número é múltiplo de três') 
+    } else {
+        console.log ('Esse número não é múltiplo de três')
+    }
 }
 
 //chamando função
@@ -70,4 +79,4 @@ function media (n1, n2, n3) {
 //contarCaracteres ( pal );
 //meucarro.exibirInformações()
 //mensagemPersonalizada(nome, mensagem)
-media(n1, n2, n3)
+//media(n1, n2, n3)
