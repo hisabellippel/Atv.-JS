@@ -1,4 +1,3 @@
-//Funções
 //let Numero = prompt('Digite um número');
 function verificarPar() {
 
@@ -33,13 +32,28 @@ function inverterTexto(palavra) {
        console.log(palavra.split("").reverse().join(""));
 }
 
-let pal = parseFloat(prompt('Digite uma palavra'));
-function contarCaracteres(pal) {
-       
+//let pal = prompt('Digite uma palavra:');
+function contarCaracteres( pal ) {
+       console.log( pal.length );
 }
+
+
+class carro {
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+    exibirInformações() {
+        console.log(`Carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    }
+}
+const meucarro = new carro('Mercedes','GLA200', '2020');
 
 //chamando função
 //verificarPar();
 //calcular(n1, n2);
-//inverterTexto(palavra)
+//inverterTexto(palavra);
+//contarCaracteres ( pal );
+meucarro.exibirInformações()
 
