@@ -93,10 +93,20 @@ function verificarSinal(numero) {
     }
 }
 
-let temp = parseFloat(prompt('digite o grau em celsius para converter'))
+//let temp = parseFloat(prompt('digite o grau em celsius para converter'))
 function converterTemperatura(temp) {
     console.log((temp * 1.8) + 32);
 }
+
+let n = 0
+let = 0
+while (n < 101) {
+    n++
+    console.log(n);
+    console.log(soma);
+    soma = soma + n;
+}
+console.log(soma);
 
 //chamando função
 //verificarPar();
@@ -108,4 +118,4 @@ function converterTemperatura(temp) {
 //media(n1, n2, n3);
 //verificarPalavra(palavra);
 //verificarSinal(numero);
-converterTemperatura(temp);
+//converterTemperatura(temp);
