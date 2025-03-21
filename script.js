@@ -50,10 +50,17 @@ class carro {
 }
 //const meucarro = new carro('Mercedes','GLA200', '2020');
 
-let nome = prompt('digite seu nome:')
+//let nome = prompt('digite seu nome:')
 const mensagem = 'Olá';
 function mensagemPersonalizada(nome, mensagem) {
     console.log (mensagem + nome);
+}
+
+let n1 = parseFloat(prompt('digite um número'));
+let n2 = parseFloat(prompt('digite um número'));
+let n3 = parseFloat(prompt('digite um número'));
+function media (n1, n2, n3) {
+    console.log((n1 + n2 + n3));
 }
 
 //chamando função
@@ -62,5 +69,6 @@ function mensagemPersonalizada(nome, mensagem) {
 //inverterTexto(palavra);
 //contarCaracteres ( pal );
 //meucarro.exibirInformações()
-mensagemPersonalizada(nome, mensagem)
+//mensagemPersonalizada(nome, mensagem)
+media(n1, n2, n3)
 
