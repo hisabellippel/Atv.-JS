@@ -63,12 +63,22 @@ function media (n1, n2, n3) {
     console.log((n1 + n2 + n3));
 }
 
-for (let numero = 1; numero < 21; numero++) {
+/*for (let numero = 1; numero < 21; numero++) {
     console.log (numero)
     if (numero % 3 === 0) {
         console.log ('Esse número é múltiplo de três') 
     } else {
         console.log ('Esse número não é múltiplo de três')
+    }
+}*/
+
+let palavra = (prompt('digite sua palavra'))
+function verificarPalavra (palavra) {
+    let palindroma = (palavra.split("").reverse(). join(""));
+    if (palavra === palindroma ) {
+        console.log ('essa palavra é palindroma');
+    } else {
+        console.log('essa palavra não é palindroma');
     }
 }
 
@@ -80,3 +90,4 @@ for (let numero = 1; numero < 21; numero++) {
 //meucarro.exibirInformações()
 //mensagemPersonalizada(nome, mensagem)
 //media(n1, n2, n3)
+verificarPalavra(palavra)
