@@ -48,12 +48,19 @@ class carro {
         console.log(`Carro: ${this.marca} ${this.modelo} ${this.ano}`);
     }
 }
-const meucarro = new carro('Mercedes','GLA200', '2020');
+//const meucarro = new carro('Mercedes','GLA200', '2020');
+
+let nome = prompt('digite seu nome:')
+const mensagem = 'Olá';
+function mensagemPersonalizada(nome, mensagem) {
+    console.log (mensagem + nome);
+}
 
 //chamando função
 //verificarPar();
 //calcular(n1, n2);
 //inverterTexto(palavra);
 //contarCaracteres ( pal );
-meucarro.exibirInformações()
+//meucarro.exibirInformações()
+mensagemPersonalizada(nome, mensagem)
 
